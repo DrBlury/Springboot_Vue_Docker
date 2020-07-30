@@ -18,7 +18,7 @@
     <description>Demo project for Spring Boot application in docker</description>
 
     <properties>
-        <java.version>11</java.version>
+        <java.version>14</java.version>
     </properties>
 
     <modules>

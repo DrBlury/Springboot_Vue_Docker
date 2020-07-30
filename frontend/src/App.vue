@@ -1,6 +1,6 @@
 <template>
   <v-app id="app" theme="dark">
-    <h1><b>Camunda Microservice</b></h1>
+    <h1><b>Register/Login</b></h1>
 
     <keep-alive>
       <router-view class="view one" name="default"></router-view> 

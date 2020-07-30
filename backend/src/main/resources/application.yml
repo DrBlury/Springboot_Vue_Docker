@@ -1,2 +1,32 @@
 server:
   port: 8090
+smtp:
+  Host: localhost
+  Auth: false
+  StartTLS: false
+  Port: 25
+  SSLTrust: localhost
+authorization:
+  jwt:
+    secret: thisIsAFckNS3cr3T1337
+logging:
+  level:
+    org:
+      springframework: ERROR
+spring:
+  main:
+    banner-mode: off
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+  datasource:
+    initialization-mode: always
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/
+    username: postgres
+    password: postgres
